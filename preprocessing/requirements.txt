@@ -1,0 +1,8 @@
+bs4
+lxml
+ast
+pandas
+tqdm
+openai
+transformers
+cv2
