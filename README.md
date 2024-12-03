@@ -76,8 +76,8 @@ chmod +x run.sh
 
 ## Benchmark Evaluation
 We also include the code to adapt ScribeAgent, which takes HTML as input and outputs actions in HTML format, to public benchmarks.
-- Mind2Web: Follow the [original GitHub repository](https://github.com/OSU-NLP-Group/Mind2Web/tree/main) to set up  the environment. Then, check out [this page](https://github.com/colonylabs/labs/blob/main/code_release_v1/benchmarks/mind2web/README.md) for detailed instructions to run the evaluation.
-- WebArena: Check out [this page](https://github.com/colonylabs/labs/blob/main/code_release_v1/benchmarks/webarena/README.md) for detailed instructions to run the evaluation.
+- Mind2Web: Follow the [original GitHub repository](https://github.com/OSU-NLP-Group/Mind2Web/tree/main) to set up  the environment. Then, check out [this page](https://github.com/colonylabs/ScribeAgent/blob/main/benchmarks/mind2web/README.md) for detailed instructions to run the evaluation.
+- WebArena: Check out [this page](https://github.com/colonylabs/ScribeAgent/blob/main/benchmarks/webarena/README.md) for detailed instructions to run the evaluation.
 
 ## Citation
 If you find this repository useful, please consider citing our paper:
