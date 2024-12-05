@@ -14,7 +14,7 @@ Table of content:
 
 For ScribeAgent, we consider an observation space consisting of the user obejective, current web page's URL and HTML-DOM, and previous actions. The `preprocessing` folder details the data preprocessing pipeline, including DOM pruning and input-output formatiing. For more information on how data moves through the pipeline, check out the [Data Transformation Flowchart](https://www.figma.com/board/dP4iwGchrQFnjNVHsj1I77/Untitled?node-id=0-1&node-type=canvas&t=B1gxNngVCBb8Roqt-0) and Section 3.2.2 of our [paper](https://arxiv.org/abs/2411.15004).
 
-<img width="1994" alt="data processing pipeline" src="https://github.com/user-attachments/assets/ab3f4ff4-0857-4688-b507-fe297bef3809">
+<img width="1994" alt="data processing pipeline" src="assets/DataFlow.png">
 
 ### File Structure for `preprocessing`
 

@@ -4,7 +4,7 @@
 
 This folder details our data preprocessing pipeline. For more information on how data moves through the pipeline, check out the [Data Transformation Flowchart](https://www.figma.com/board/dP4iwGchrQFnjNVHsj1I77/Untitled?node-id=0-1&node-type=canvas&t=B1gxNngVCBb8Roqt-0)
 
-<img width="1994" alt="data processing pipeline" src="https://github.com/user-attachments/assets/ab3f4ff4-0857-4688-b507-fe297bef3809">
+<img width="1994" alt="data processing pipeline" src="../assets/DataFlow.png">
 
 ## Folder Structure
 List and describe the subfolders included in the project:
