@@ -70,7 +70,7 @@ class DataCollatorForWorkflow:
 				model_inputs["attention_mask"].append([1 for _ in tokenized_input])
 			num_passed += 1
 
-		# Left-pad inputs, convert to tensor
+		# To tensor + right pad
 		for key, value in model_inputs.items():
 			if key == "labels":
 				pad_token_id = self.label_pad_token_id
@@ -79,14 +79,10 @@ class DataCollatorForWorkflow:
 			else:
 				pad_token_id = self.tokenizer.pad_token_id
 
-			# To left-pad inputs, reverse, then right-pad, then reverse
-			value_tensors = [torch.tensor(v[::-1]) for v in value]
-			model_inputs[key] = torch.fliplr(
-					pad_sequence(
-						value_tensors,
+			model_inputs[key] = pad_sequence(
+						[torch.tensor(v) for v in value],
 						batch_first=True,
 						padding_value=pad_token_id,
 					)
-				)
 	
 		return dict(model_inputs)
